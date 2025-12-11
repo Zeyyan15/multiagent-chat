@@ -1,0 +1,144 @@
+{
+  "query": "What are the main types of neural networks?",
+  "results": {
+    "research": [
+      {
+        "title": "Neural Networks Overview",
+        "text": "Neural networks are a family of models inspired by biological neurons. Common types: feedforward, CNNs (conv nets), RNNs, LSTMs, Transformers.",
+        "tags": [
+          "neural",
+          "cnn",
+          "rnn",
+          "transformer"
+        ],
+        "source": "mock.org/nn",
+        "confidence": 0.9
+      },
+      {
+        "title": "Transformer Architecture Paper",
+        "text": "Transformers use self-attention and are highly parallelizable. They can be computationally intensive for large models but efficient for training on modern accelerators.",
+        "tags": [
+          "transformer",
+          "attention",
+          "efficiency"
+        ],
+        "source": "mock.org/transformer",
+        "confidence": 0.7
+      },
+      {
+        "title": "Gradient Descent",
+        "text": "Gradient Descent and its variants like SGD are fundamental optimization algorithms. SGD with momentum is simple and memory efficient.",
+        "tags": [
+          "optimizers",
+          "sgd"
+        ],
+        "source": "mock.org/sgd",
+        "confidence": 0.6
+      },
+      {
+        "title": "Adam Optimizer",
+        "text": "Adam is an adaptive optimizer combining RMSProp and momentum. It generally converges faster than vanilla SGD in many settings.",
+        "tags": [
+          "optimizers",
+          "adam",
+          "sgd"
+        ],
+        "source": "mock.org/adam",
+        "confidence": 0.44
+      },
+      {
+        "title": "Reinforcement Learning Survey",
+        "text": "Recent papers highlight sample efficiency, exploration, and stability as common challenges in RL.",
+        "tags": [
+          "reinforcement",
+          "rl",
+          "papers"
+        ],
+        "source": "mock.org/rl-survey",
+        "confidence": 0.49
+      }
+    ],
+    "analysis": {
+      "metric": "effectiveness",
+      "ranked": [
+        {
+          "title": "Neural Networks Overview",
+          "score": 0.755,
+          "source": "mock.org/nn",
+          "confidence": 0.81,
+          "explanation": "Length-based proxy score with tag bonus (4 tags)."
+        },
+        {
+          "title": "Transformer Architecture Paper",
+          "score": 0.72,
+          "source": "mock.org/transformer",
+          "confidence": 0.63,
+          "explanation": "Length-based proxy score with tag bonus (3 tags)."
+        },
+        {
+          "title": "Adam Optimizer",
+          "score": 0.615,
+          "source": "mock.org/adam",
+          "confidence": 0.4,
+          "explanation": "Length-based proxy score with tag bonus (3 tags)."
+        },
+        {
+          "title": "Reinforcement Learning Survey",
+          "score": 0.542,
+          "source": "mock.org/rl-survey",
+          "confidence": 0.44,
+          "explanation": "Length-based proxy score with tag bonus (3 tags)."
+        },
+        {
+          "title": "Gradient Descent",
+          "score": 0.532,
+          "source": "mock.org/sgd",
+          "confidence": 0.54,
+          "explanation": "Length-based proxy score with tag bonus (2 tags)."
+        }
+      ],
+      "summary_text": "Top item: Neural Networks Overview",
+      "confidence": 0.56
+    },
+    "synthesis": {
+      "text": "Based on available data, 'Neural Networks Overview' scores highest for effectiveness (0.755). Explanation: Length-based proxy score with tag bonus (4 tags).",
+      "confidence": 0.81
+    }
+  },
+  "trace": [
+    {
+      "actor": "Coordinator",
+      "action": "complexity_analysis",
+      "payload": {
+        "query": "What are the main types of neural networks?",
+        "plan": [
+          "research",
+          "analysis"
+        ]
+      },
+      "ts": "2025-12-11T13:39:44.224261Z"
+    },
+    {
+      "actor": "Coordinator",
+      "action": "call_research",
+      "payload": {
+        "query": "What are the main types of neural networks?"
+      },
+      "ts": "2025-12-11T13:39:44.225292Z"
+    },
+    {
+      "actor": "Coordinator",
+      "action": "call_analysis",
+      "payload": {
+        "items_count": 5
+      },
+      "ts": "2025-12-11T13:39:44.225292Z"
+    },
+    {
+      "actor": "Coordinator",
+      "action": "synthesize",
+      "payload": {},
+      "ts": "2025-12-11T13:39:44.225292Z"
+    }
+  ]
+}

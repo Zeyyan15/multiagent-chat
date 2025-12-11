@@ -1,0 +1,33 @@
+{
+  "answer": "Memory found (similar): neural networks - Based on available data, 'Neural Networks Overview' scores highest for effectiveness (0.755). Explanation: Length-based proxy score with tag bonus (4 tags). (score=0.508)",
+  "confidence": 0.81,
+  "details": {
+    "keyword_results": [
+      {
+        "id": 1,
+        "timestamp": 1765460384.226351,
+        "topic": "neural networks",
+        "text": "Based on available data, 'Neural Networks Overview' scores highest for effectiveness (0.755). Explanation: Length-based proxy score with tag bonus (4 tags).",
+        "source": "auto",
+        "agent": "Coordinator",
+        "confidence": 0.81,
+        "metadata": {}
+      }
+    ],
+    "vector_results": [
+      [
+        {
+          "id": 1,
+          "timestamp": 1765460384.226351,
+          "topic": "neural networks",
+          "text": "Based on available data, 'Neural Networks Overview' scores highest for effectiveness (0.755). Explanation: Length-based proxy score with tag bonus (4 tags).",
+          "source": "auto",
+          "agent": "Coordinator",
+          "confidence": 0.81,
+          "metadata": {}
+        },
+        0.5080005080007621
+      ]
+    ]
+  }
+}

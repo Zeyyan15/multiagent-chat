@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Byte-compiled
+*.log
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+
+# Optional: remove placeholder outputs when real ones are created manually
+# outputs/*.txt
